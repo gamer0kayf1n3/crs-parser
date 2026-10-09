@@ -1,0 +1,47 @@
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main {
+  width: clamp(300px, 100%, 600px);
+  overflow: clip;
+  padding-bottom: 50px;
+}
+
+textarea {
+  width: 100%;
+  border: 0;
+}
+input {
+  padding: 10px;
+  border-radius: 0px;
+  border: 1px solid black;
+}
+
+.inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.inputs .n {
+  flex: 4;
+}
+.inputs .s {
+  flex: 1;
+}
+.app-shell > * {
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+}
+button {
+  padding: 10px;
+  border-radius: 0px;
+  border: 1px solid black;
+}
